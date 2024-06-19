@@ -1,0 +1,4 @@
+As Tags são conhecidas como Blocos; onde todo o seu conteúdo é "anexado" por elas. Por Exemplo:
+<tag> 
+    Conteúdo
+ </tag>
