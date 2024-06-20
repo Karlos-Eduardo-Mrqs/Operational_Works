@@ -12,7 +12,7 @@ e ao redor do mundo, existem ínumeros tipos de letras e caracteres especiaís.C
 ***
 # Tabela ASCII 
 E dentro da aréa de tecnologia, isso não é diferente, possuindo até mesmo sua própria tabela chamada de ASCII.
-**Denomindade de Código Padrão Americano para o Intercâmbio de Informação, ela é baseado no alfabeto romano e 
+**Denominada de Código Padrão Americano para o Intercâmbio de Informação, ela é baseado no alfabeto romano e 
 sua função é padronizar a forma como os computadores representam letras, números, acentos, sinais diversos e 
 alguns códigos de controle.**
 ***
