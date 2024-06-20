@@ -34,4 +34,4 @@ O Display é o espaço que o conteúdo é exibido e como o conteúdo se comporta
         Texto 1
         Texto 2 
     ```
-    Sem nenhuma TAG, os dois textos ficaram um do lado do outro, por possuirem por padrão o Display "Inline", isso também acontece com a TAG <span>, uma tag específica para textos. Para observar a diferença de displays basta abrir o documento, usar o atahlo "CTRL+SHIFT⬆️+I" procurar um icone↖️ e clicar no elemento desejado.
+    Sem nenhuma TAG, os dois textos ficaram um do lado do outro, por possuirem por padrão o Display "Inline", isso também acontece com a TAG span, uma tag específica para textos. Para observar a diferença de displays basta abrir o documento, usar o atahlo "CTRL+SHIFT⬆️+I" procurar um icone↖️ e clicar no elemento desejado.
