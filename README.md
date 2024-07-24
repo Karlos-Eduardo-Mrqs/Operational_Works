@@ -1,2 +1,2 @@
-# Trabalhos_De_Programa
- Esse repósitorio, é responsável por compartilhar programas/algoritmos.Incluindo programas de C++,Javascript, PHP e entre outros. 
+# Operational_Works
+This repository, is responsable for share programms/ algorithms. Including programms in languages C++,Javascript, Php and others.
