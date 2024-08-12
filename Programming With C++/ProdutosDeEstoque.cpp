@@ -4,7 +4,7 @@
 int main(){
 	int cont,CodigoMd=0;
 	char RespMd;
-	std::vector<int> QuantidadeProdutos = {	100,50,90,70,80,95}; //Esse vetor irá armazenar a quantidade de estoque dos produtos(Por Isso ELe é Int)
+	std::vector<int> QuantidadeProdutos = {100,50,90,70,80,95}; //Esse vetor irá armazenar a quantidade de estoque dos produtos(Por Isso ELe é Int)
 	std::vector<std::string> Produtos = {"Pao_Frances","Carrinhos","Doces","Salgados","Balas_De_Goma","Maletas"}; 
 	// Esse vetor acima, irá armazenar o nome de cada produto(ele não é char,por que ele não carrega o nome inteiro,só a primeira Letra).Ex: Digitei o Nome Carlos, o resultado de char:'C' e string:'Carlos';
 	

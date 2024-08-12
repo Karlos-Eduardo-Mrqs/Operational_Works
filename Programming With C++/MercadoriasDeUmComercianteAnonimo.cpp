@@ -39,7 +39,7 @@ int main(){
 		// Se o Lucro for maior que DezPorcentoDeCompra e menor que VintePorcentoDeCompra , conte + 1 , senao, o valor do contador permanece o mesmo;
 		std::cout<<"Voce Deseja Cadastrar Mais Alguma Mercadoria [Sim - S|s ou N - (-1)] ?:";
 		std::cin>>Pare;
-		ContinuarRelatorio=(Pare == 'S' || Pare == 's') ? true :false; 
+		ContinuarRelatorio=(Pare == 'S' || Pare == 's') ? true : false; 
 		//Ao final do looping, será perguntado ao usuário caso ele continue ou não;Se o usuário digitar 's' ou 'S' como sim, a Tela será limpada e um novo produto será cadastro ;
 		//senão,mostrará o relatorio da Loja(TotalDeVendas,Compras,Produtos,Lucro e entre outros dados);
 	}
