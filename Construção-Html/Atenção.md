@@ -1,2 +1,0 @@
-# Observação 
-Para a leitura dessas pastas e arquivos, recomenda-se que **leia os números dentro dos parenteses, no nome das pastas**,Exemplo(ConceitoDeTags-Número_01), (EstruturaDoHtml-Número_02) e assim em diante, para não se perderem,ok ? Por conta de cada uma dessas pastas e arquivos terem conexão
