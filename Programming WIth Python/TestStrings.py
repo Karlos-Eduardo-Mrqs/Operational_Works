@@ -10,6 +10,7 @@ print("Your name in UpperCase:",Upper);
 print("Your name in LowerCase:",Lower);
 print("Your name with no spaces:",RemoveSpace);
 print("Your name with replaces:",Locat);
+print("Your name with\n /n      :" + name);
 
 First = "Hello";
 Second = "For";
