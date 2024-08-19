@@ -1,6 +1,7 @@
 name = "Carlos" ;
 number1 = 40;
 number2 = 09.95 ;
+number3= complex(4);
 reality = True;
 Ia = False;
 byte =b"Hello"; 
@@ -17,6 +18,7 @@ Nothing = None;
 print("Name i's", type(name));
 print("Number1 i's", type(number1));
 print("Number2 i's", type(number2));
+print("Number3 i's", type(number3));
 print("Reality i's", type(reality));
 print("Ia i's", type(Ia));
 print("Byte i's", type(byte));
