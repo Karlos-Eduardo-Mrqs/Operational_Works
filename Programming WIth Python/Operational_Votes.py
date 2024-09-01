@@ -11,6 +11,7 @@ def Correct_Vote(One_Vote,Message):
 
 def Data(Sum_Votes,Operational_Systems):
     print(Operational_Systems,Sum_Votes)
+
 Operational_Systems = ["Windows","Linux","Unix","Mac_Os","NetWare","Other"];
 Length_OS = len(Operational_Systems);
 Sum_Votes = [0] * Length_OS;
@@ -26,5 +27,4 @@ while Voting:
     Sum_Votes[One_Vote] += 1 ;
     Continue = input("Have more people for voting [Y - yes | N - No]?:");
     Voting = Repeat(Continue);
-
 Data(Sum_Votes,Operational_Systems);
