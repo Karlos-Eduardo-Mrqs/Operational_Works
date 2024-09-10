@@ -14,3 +14,4 @@ server.login(msg['From'], password);
 server.sendmail(msg['From'], msg['To'], msg.as_string());
 server.quit();
 print('The message are success send ! ');
+# For more security, follow that pass: 1. Entry your Google Account; 2. Search App Password; 3. Write in New App "Send E-mail With Python"; 4. The Google generate one random password and with passoword you use the project, ok ? Good test :)  
