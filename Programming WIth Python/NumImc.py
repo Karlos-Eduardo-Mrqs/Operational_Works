@@ -22,6 +22,5 @@ while (TemMaisAlguem) :
     Resposta = input("Tem mais alguem para cadastrar seu imc [S - sim / N - não]").upper();    
     TemMaisAlguem = bool(Resposta == "S");
     situacao = "";
-
 pessoas.sort(key=lambda x: x[0])
 print(pessoas);
