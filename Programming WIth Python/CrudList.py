@@ -35,14 +35,12 @@ def AdicionarContato():
 def IlustrarContato():
     if not Contatos:  # Se não possuem contatos na lista !
         print("Não temos nenhum contato!");
-    else:  # Se possuir contatos na lista !
-        print("     Ilustrando Contatos!");
+    print("Ilustrando Contatos!");
+    print("-----------------------------------------------------------------------------");
+    for Contato in Contatos:
+        print(f"ID: {Contato['id']}, Nome: {Contato['nome']}, Telefone: {Contato['telefone']}");
         print("-----------------------------------------------------------------------------");
-        for Contato in Contatos:
-            print(f"ID: {Contato['id']}, Nome: {Contato['nome']}, Telefone: {Contato['telefone']}");
-            print("-----------------------------------------------------------------------------");
 
-# Função De Alterar Contatos
 # Função De Alterar Contatos
 def AlterarContato():
     LimparTela()
@@ -99,6 +97,7 @@ def AlterarContato():
 
         except ValueError:
             print("Entrada inválida. Digite um número.")
+
 # Função De Deletar Contatos
 def DeletarContato():
     LimparTela()  # Limpa a sua tela
@@ -135,6 +134,7 @@ def DeletarContato():
         except ValueError:  # Caso a entrada seja inválida
             print("Entrada inválida! Digite um número válido.")
 
+# Função De Buscar Contatos
 def BuscarContato():
     
     print("Buscar contatos!");
@@ -186,6 +186,7 @@ def BuscarContato():
         except ValueError:
             print("Digite um valor válido!");
 
+# Função De Sair Do Sistema
 def Sair():
     if len(Contatos) > 0:  # Caso já possua um contato ou mais na lista
         print("ATENÇÃO! CASO SAIR, OS CONTATOS SERÃO APAGADOS!")
@@ -215,7 +216,7 @@ def Cabecalho():
     print(" 6 . Saindo Do Sistema ")
     print("-------- M E N U D E O P Ç Õ E S --------")
 
-# Exibição De Opções Válidas para serem realizadas
+# Exibe a Tela Principal Do Usuário
 def TelaPrincipal():
     while True:
         Cabecalho()  # Mostra as opções disponíveis a serem feitas
@@ -240,5 +241,5 @@ def TelaPrincipal():
         except ValueError:  # caso de erro de conversão
             print("Entrada inválida. Digite um número!")
 
-# Inicializa a tela principal
-TelaPrincipal()
+# Inicializa A Tela Principal
+TelaPrincipal() # © Carlos Eduardo;
