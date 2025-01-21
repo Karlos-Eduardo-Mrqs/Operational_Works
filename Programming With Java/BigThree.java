@@ -10,6 +10,7 @@ public class BigThree {
             System.out.println("Enter the third integer number:");
             int number3 = scan.nextInt();            
             OrderNumbers(number1, number2, number3);
+            
         }
     }
 
