@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ReserveSeats {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
+        int indiceColuna;
         // Cria arrays para armazenar as colunas e os assentos
         char[] columns = new char[16]; // 16 letras de 'A' a 'P'
         boolean[] seats = new boolean[16]; // Array para rastrear assentos ocupados (false = disponível)
@@ -27,7 +27,7 @@ public class ReserveSeats {
 
         // Verifica se a coluna escolhida está disponível
         boolean colunaEncontrada = false;
-        int indiceColuna = -1;
+        indiceColuna = -1;
         for (int i = 0; i < columns.length; i++) {
             if (columns[i] == escolhaColuna) {
                 colunaEncontrada = true;
