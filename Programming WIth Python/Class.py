@@ -6,7 +6,7 @@ class Conta:
         self.nomeTitular = nomeTitular;
         self.saldo = saldo;
 
-numero = "";
+numero = ""; 
 for num in range(5):
     numero += str(random.randint(1,5));
     print(numero);
