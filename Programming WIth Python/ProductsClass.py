@@ -46,5 +46,6 @@ def main():#Função principal para criar e exibir produtos.
         productsList.append(product)
     
     exibirProdutos(productsList) # Exibe os produtos criados
+
 if __name__ == "__main__":# Executa o programa
     main()
