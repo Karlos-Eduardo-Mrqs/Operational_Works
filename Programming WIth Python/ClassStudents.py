@@ -9,8 +9,7 @@ class Aluno:
     media: float = 0.0 
 
     def MediaAluno(self): #Método para calcular a média das notas do aluno. Atualiza o atributo `media` com o valor calculado.
-        if self.notas:# Verifica se a lista de notas não está vazia
-            # Calcula a média somando todas as notas e dividindo pelo número de notas
+        if self.notas:# Verifica se a lista de notas não está vazia.
             self.media = sum(self.notas) / len(self.notas)
         else: # Se a lista de notas estiver vazia, define a média como 0.0
             self.media = 0.0
