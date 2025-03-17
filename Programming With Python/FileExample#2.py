@@ -1,5 +1,5 @@
-arquivo = open("Texto.txt","w");
-arquivo.write("Raphael");
+arquivo = open("Texto.txt","w"); 
+arquivo.write("Raphael"); 
 arquivo.writelines(["\n Caroline","\n Vanessa ","\n Daniel","\n Morais","\n Yan"]);
 arquivo.close();
 
