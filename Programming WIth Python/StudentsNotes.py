@@ -6,7 +6,7 @@ class Alunos:
     matricula: int
     nome: str
     turma: int
-    notas: List[float]  # List of grades
+    notas: List[float] 
 
     def media_individual(self) -> float:
         #Calcula a média individual dos estudantes 
