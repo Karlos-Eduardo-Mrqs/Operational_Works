@@ -11,7 +11,7 @@ def cabecalho():
     print("------------------------------------------------------------------\n")
 
 def main():
-    agenda = FuncoesAgenda("contatos.txt") # Cria uma instância da classe FuncoesAgenda
+    agenda = FuncoesAgenda("alunos.txt") # Cria uma instância da classe FuncoesAgenda
     
     funcoes = {0: agenda.sair, 1: agenda.cadastrar_aluno,2: agenda.listar_alunos, 
     3: agenda.buscar_aluno, 4: agenda.remover_aluno,5: agenda.alterar_aluno } # Define o mapeamento de códigos para funções
