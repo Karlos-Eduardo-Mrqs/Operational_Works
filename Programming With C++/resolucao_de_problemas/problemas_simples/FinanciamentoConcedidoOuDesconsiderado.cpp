@@ -17,8 +17,7 @@ int main(){
 		std::cin>>Financiamento;
 		
 		SituacaoFin += NomeCliente + " Seu" ;  // Resultado aqui: Antonio_Junior Seu (Formando uma frase aos poucos ao decorer do algoritmo) 
-		SituacaoFin += Financiamento <= Salario*5 ? " Financiamento Foi Concedido" : " Financiamento Foi Negado" ; 
-		// Caso o Financiamento seja menor que o Salario multiplicado por (Linha de baixo)
+		SituacaoFin += Financiamento <= Salario*5 ? " Financiamento Foi Concedido" : " Financiamento Foi Negado" ; // Caso o Financiamento seja menor que o Salario multiplicado por (Linha de baixo) . 
 		//SituacaoFin = Antonio_Junior Seu Financiamento foi Concedido || Caso contrátrio Antonio_Junior Seu Financiamento Foi Negado 
 		
 		SituacaoFin += ", Obrigado Por Nos Consultar"; // Adicionando o final da mensagem.Ex:Antonio_Junior Seu Financiamento foi Concedido, Obrigado Por Nos Consultar.
