@@ -23,6 +23,7 @@ def validar_cpf(cpf):
     if int(cpf[10]) != digito_verificador_2:
         return False
     return True
+
 cpf = input("Digit your cpf:");
 Valid = validar_cpf(cpf); 
 if Valid:
