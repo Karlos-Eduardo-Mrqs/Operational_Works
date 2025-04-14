@@ -30,9 +30,7 @@ class BancoDeDados:
                 cursor.execute("PRAGMA foreign_keys = ON;")
                 cursor.execute("""
                     CREATE TABLE IF NOT EXISTS PESSOA (
-                        cpf INTEGER PRIMARY KEY,
-                        nome TEXT NOT NULL,
-                        nascimento DATE
+                        cpf TEXT PRIMARY KEY,nome TEXT NOT NULL,nascimento DATE
                     )
                 """)
                 self.conn.commit()
@@ -40,17 +38,48 @@ class BancoDeDados:
             except sqlite3.Error as erro:
                 print(f"Erro ao criar tabela PESSOA: {erro}")
 
-    def criar_tabela_marca(self): 
-        """Creates the MARCA table if it doesn't exist."""
+    def inserir_tabela_pessoa(self, cpf: int, nome: str, nascimento: str) -> None:
+        """
+        Insere uma nova pessoa na tabela PESSOA.
+        
+        :param cpf: CPF da pessoa (PRIMARY KEY).
+        :param nome: Nome da pessoa.
+        :param nascimento: Data de nascimento da pessoa (formato: YYYY-MM-DD).
+        """
+        if self.conn:
+            try:
+                cursor = self.conn.cursor()
+                cursor.execute("""
+                    INSERT INTO PESSOA (cpf, nome, nascimento)
+                    VALUES (?, ?, ?)
+                """, (cpf, nome, nascimento))
+                self.conn.commit()
+                print(f"Pessoa com CPF {cpf} inserida com sucesso!")
+            except sqlite3.IntegrityError as erro:
+                print(f"Erro de integridade: {erro}")
+            except sqlite3.Error as erro:
+                print(f"Erro ao inserir pessoa: {erro}")
+
+    def listar_tabela_pessoa(self):
+        if self.conn:
+            try:
+                cursor = self.conn.cursor();
+                cursor.execute("SELECT * FROM PESSOA;")
+                pessoas = cursor.fetchall()
+                print("Exibindo tabela pessoas !")
+                for pessoa in pessoas:
+                    print(pessoa)
+            except sqlite3.Error as erro:
+                print(f"Algo deu errado {erro}")
+
+    def criar_tabela_marca(self):  # Creates the MARCA table if it doesn't exist. 
         if self.conn:
             try:
                 cursor = self.conn.cursor()
                 cursor.execute("PRAGMA foreign_keys = ON;")
                 cursor.execute("""
                     CREATE TABLE IF NOT EXISTS MARCA (
-                        id INTEGER PRIMARY KEY,
-                        nome TEXT NOT NULL,
-                        sigla TEXT NOT NULL
+                        id INTEGER PRIMARY KEY,nome TEXT NOT NULL,sigla TEXT NOT NULL
                     )
                 """)
                 self.conn.commit()
@@ -58,43 +87,42 @@ class BancoDeDados:
             except sqlite3.Error as erro:
                 print(f"Erro ao criar tabela MARCA: {erro}")
 
-    def criar_tabela_veiculo(self): 
-        """Creates the CARRO table if it doesn't exist."""
+    def criar_tabela_veiculo(self):  # Creates the CARRO table if it doesn't exist.
         if self.conn:
             try:
                 cursor = self.conn.cursor()
                 cursor.execute("PRAGMA foreign_keys = ON;")
                 cursor.execute("""
                     CREATE TABLE IF NOT EXISTS CARRO (
-                        placa TEXT PRIMARY KEY,
-                        cor TEXT NOT NULL,
-                        cpf_proprietario INTEGER,
-                        id_marca INTEGER,
-                        FOREIGN KEY(cpf_proprietario) REFERENCES PESSOA(cpf),
-                        FOREIGN KEY(id_marca) REFERENCES MARCA(id)
-                    )
-                """)
+                        placa TEXT PRIMARY KEY,cor TEXT NOT NULL,cpf_proprietario INTEGER,id_marca INTEGER,
+                        FOREIGN KEY(cpf_proprietario) REFERENCES PESSOA(cpf),FOREIGN KEY(id_marca) REFERENCES MARCA(id)
+                    )""")
                 self.conn.commit()
                 print("Tabela CARRO criada ou já existe.")
             except sqlite3.Error as erro:
                 print(f"Erro ao criar tabela CARRO: {erro}")
 
-    def criar_tabelas(self): 
-        """Creates all required tables."""
+    def criar_tabelas(self):  # Creates all required tables.
         self.criar_tabela_pessoa()
         self.criar_tabela_marca()
         self.criar_tabela_veiculo()
 
-    def __enter__(self): 
-        """Enables the use of 'with' statements."""
+    def __enter__(self): # Enables the use of 'with' statements.
         self.conectar()
         return self
 
-    def __exit__(self, exc_type, exc_val, exc_tb): 
+    def __exit__(self): 
         """Ensures the connection is closed after 'with' block."""
         self.desconectar()
 
-if __name__ == '__main__': 
-    # Use the context manager to ensure proper resource management
+if __name__ == '__main__':
     with BancoDeDados() as banco:
+        # Criar tabelas (caso ainda não existam)
         banco.criar_tabelas()
+
+        # Inserir alguns dados de exemplo
+        banco.inserir_tabela_pessoa(cpf=12345678900, nome="João Silva", nascimento="1990-05-15")
+        banco.inserir_tabela_pessoa(cpf=98765432100, nome="Maria Souza", nascimento="1985-08-20")
+
+        # Listar a tabela PESSOA
+        banco.listar_tabela_pessoa()
