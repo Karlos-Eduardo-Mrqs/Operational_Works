@@ -1,128 +1,92 @@
 import os
 import sqlite3
+from Controllers import CarsControl, PersonControl, MarksControl
+from Models.Person import Pessoa
 
 class BancoDeDados:
-    def __init__(self, nome_banco='Gerenciamento.sqlite'): 
-        """Initializes the database connection."""
+    def __init__(self, nome_banco='banco.sqlite'): 
+        """Inicializa a conexão com o banco de dados."""
         self.nome_banco = os.path.join(os.path.dirname(__file__), nome_banco)
         self.conn = None
 
     def conectar(self): 
-        """Connects to the SQLite database."""
+        """Conecta ao banco de dados SQLite."""
         try:
             self.conn = sqlite3.connect(self.nome_banco)
             print("Conexão estabelecida com sucesso!")
         except sqlite3.Error as erro:
             print(f"Erro ao conectar ao banco de dados: {erro}")
+            raise  # Relança a exceção para propagá-la, caso necessário.
 
     def desconectar(self): 
-        """Closes the database connection."""
+        """Fecha a conexão com o banco de dados."""
         if self.conn:
             self.conn.close()
             self.conn = None
             print("Conexão encerrada.")
 
-    def criar_tabela_pessoa(self): 
-        """Creates the PESSOA table if it doesn't exist."""
+    def criar_tabelas(self):  
+        """Cria todas as tabelas chamando os métodos dos Controllers."""
         if self.conn:
             try:
-                cursor = self.conn.cursor()
-                cursor.execute("PRAGMA foreign_keys = ON;")
-                cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS PESSOA (
-                        cpf TEXT PRIMARY KEY,nome TEXT NOT NULL,nascimento DATE
-                    )
-                """)
-                self.conn.commit()
-                print("Tabela PESSOA criada ou já existe.")
+                MarksControl.MarksDAO(self.conn).criar_tabela()
+                PersonControl.PessoaDAO(self.conn).criar_tabela()
+                CarsControl.CarroDAO(self.conn).criar_tabela()
+                print("Tabelas criadas com sucesso!")
             except sqlite3.Error as erro:
-                print(f"Erro ao criar tabela PESSOA: {erro}")
+                print(f"Erro ao criar as tabelas: {erro}")
+                self.conn.rollback()  # Caso haja erro, reverte a transação.
 
-    def inserir_tabela_pessoa(self, cpf: int, nome: str, nascimento: str) -> None:
-        """
-        Insere uma nova pessoa na tabela PESSOA.
-        
-        :param cpf: CPF da pessoa (PRIMARY KEY).
-        :param nome: Nome da pessoa.
-        :param nascimento: Data de nascimento da pessoa (formato: YYYY-MM-DD).
-        """
-        if self.conn:
-            try:
-                cursor = self.conn.cursor()
-                cursor.execute("""
-                    INSERT INTO PESSOA (cpf, nome, nascimento)
-                    VALUES (?, ?, ?)
-                """, (cpf, nome, nascimento))
-                self.conn.commit()
-                print(f"Pessoa com CPF {cpf} inserida com sucesso!")
-            except sqlite3.IntegrityError as erro:
-                print(f"Erro de integridade: {erro}")
-            except sqlite3.Error as erro:
-                print(f"Erro ao inserir pessoa: {erro}")
-
-    def listar_tabela_pessoa(self):
-        if self.conn:
-            try:
-                cursor = self.conn.cursor();
-                cursor.execute("SELECT * FROM PESSOA;")
-                pessoas = cursor.fetchall()
-                print("Exibindo tabela pessoas !")
-                for pessoa in pessoas:
-                    print(pessoa)
-            except sqlite3.Error as erro:
-                print(f"Algo deu errado {erro}")
-
-    def criar_tabela_marca(self):  # Creates the MARCA table if it doesn't exist. 
-        if self.conn:
-            try:
-                cursor = self.conn.cursor()
-                cursor.execute("PRAGMA foreign_keys = ON;")
-                cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS MARCA (
-                        id INTEGER PRIMARY KEY,nome TEXT NOT NULL,sigla TEXT NOT NULL
-                    )
-                """)
-                self.conn.commit()
-                print("Tabela MARCA criada ou já existe.")
-            except sqlite3.Error as erro:
-                print(f"Erro ao criar tabela MARCA: {erro}")
-
-    def criar_tabela_veiculo(self):  # Creates the CARRO table if it doesn't exist.
-        if self.conn:
-            try:
-                cursor = self.conn.cursor()
-                cursor.execute("PRAGMA foreign_keys = ON;")
-                cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS CARRO (
-                        placa TEXT PRIMARY KEY,cor TEXT NOT NULL,cpf_proprietario INTEGER,id_marca INTEGER,
-                        FOREIGN KEY(cpf_proprietario) REFERENCES PESSOA(cpf),FOREIGN KEY(id_marca) REFERENCES MARCA(id)
-                    )""")
-                self.conn.commit()
-                print("Tabela CARRO criada ou já existe.")
-            except sqlite3.Error as erro:
-                print(f"Erro ao criar tabela CARRO: {erro}")
-
-    def criar_tabelas(self):  # Creates all required tables.
-        self.criar_tabela_pessoa()
-        self.criar_tabela_marca()
-        self.criar_tabela_veiculo()
-
-    def __enter__(self): # Enables the use of 'with' statements.
+    def __enter__(self): 
+        """Permite o uso da instrução 'with' para conectar automaticamente."""
         self.conectar()
         return self
 
-    def __exit__(self): 
-        """Ensures the connection is closed after 'with' block."""
+    def __exit__(self, exc_type, exc_value, traceback):
+        """Garante que a conexão será fechada após o bloco 'with'."""
         self.desconectar()
+        if exc_type:
+            print(f"Erro no bloco 'with': {exc_value}")
 
 if __name__ == '__main__':
-    with BancoDeDados() as banco:
-        # Criar tabelas (caso ainda não existam)
-        banco.criar_tabelas()
+    banco = BancoDeDados()
+    try:
+        # Usando 'with' para gerenciar automaticamente a conexão com o banco de dados
+        with banco:
+            banco.criar_tabelas()
+            
+            # Teste de inserção e leitura de marcas
+            controle_marca = MarksControl.MarksDAO(banco.conn)
+            controle_marca.inserir("Build Your Dreams", "BYD")  # Inserindo marca
+            marcas = controle_marca.listar()  # Listando todas as marcas
+            print("\nMarcas cadastradas:")
+            for marca in marcas:
+                print(marca)
+            
+            # Teste de inserção e leitura de carros
+            controle_carro = CarsControl.CarroDAO(banco.conn)
+            controle_carro.inserir("QWX-7895", "Rosinha", 55566644478)  # Inserindo carro
+            carros = controle_carro.listar_tabela_carro()  # Listando todos os carros
+            print("\nCarros cadastrados:")
+            for carro in carros:
+                print(carro)
+            
+            # Teste de inserção e leitura de pessoas
+            controle_pessoa = PersonControl.PessoaDAO(banco.conn)
+            pessoa = Pessoa(cpf="123.456.789-00", nome="Carlos Eduardo", nascimento="1995-10-10")
+            controle_pessoa.inserir(pessoa)  # Inserindo pessoa
+            pessoas = controle_pessoa.listar()  # Listando todas as pessoas
+            print("\nPessoas cadastradas:")
+            for p in pessoas:
+                print(f"{p.nome}, CPF: {p.cpf}, Nascimento: {p.nascimento}")
+            
+            # Teste de busca por CPF
+            cpf_busca = "123.456.789-00"
+            pessoa_busca = controle_pessoa.buscar_por_cpf(cpf_busca)
+            if pessoa_busca:
+                print(f"\nPessoa encontrada: {pessoa_busca.nome}, CPF: {pessoa_busca.cpf}")
+            else:
+                print(f"\nNenhuma pessoa encontrada com o CPF {cpf_busca}")
 
-        # Inserir alguns dados de exemplo
-        banco.inserir_tabela_pessoa(cpf=12345678900, nome="João Silva", nascimento="1990-05-15")
-        banco.inserir_tabela_pessoa(cpf=98765432100, nome="Maria Souza", nascimento="1985-08-20")
-
-        # Listar a tabela PESSOA
-        banco.listar_tabela_pessoa()
+    except Exception as e:
+        print(f"Erro ao realizar operações no banco de dados: {e}")

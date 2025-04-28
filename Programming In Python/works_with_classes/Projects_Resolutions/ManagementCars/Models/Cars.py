@@ -1,7 +1,6 @@
 from dataclasses import dataclass
-from datetime import date
-from Person import Pessoa
-from Marks import Marca
+from Models.Person import Pessoa
+from Models.Marks import Marca
 
 @dataclass
 class Carro:
