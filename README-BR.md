@@ -1,6 +1,10 @@
-# Trabalhos Operacionais Versão BR 
+# Trabalhos Operacionais 🚀
 
 Este repositório é dedicado ao compartilhamento de vários programas e algoritmos em **C++**, **Python** e **Java** (com mais linguagens a serem adicionadas no futuro). O objetivo é fornecer códigos claros e eficientes para aprendizado, prática e reutilização.
+
+- **[🇧🇷 Versão Brasileira *você está aqui*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-BR.md)**
+
+- **[🇺🇸 versão Americana *Current*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
 
 ## 🧑‍💻 Como Usar Este Repositório?
 
