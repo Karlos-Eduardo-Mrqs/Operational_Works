@@ -8,7 +8,7 @@ Este repositório é dedicado ao compartilhamento de vários programas e algorit
 
 - **[🇺🇸 Versão Americana](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
 
-- **[Versão Espanhola](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
+- **[🇪🇸 Versão Espanhola](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
 
 ## 🧑‍💻 Como Usar Este Repositório?
 
