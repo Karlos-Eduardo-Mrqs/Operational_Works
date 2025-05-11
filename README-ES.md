@@ -4,7 +4,7 @@ Este repositorio está dedicado a compartir varios programas y algoritmos en **C
 
 ## Idiomas disponibles 🌐
 
-- **[Versión en español *estás aquí*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
+- **[🇪🇸 Versión en español *estás aquí*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
 
 - **[🇧🇷 Versión brasileña](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-BR.md)**
 
