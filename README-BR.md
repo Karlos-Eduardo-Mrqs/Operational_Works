@@ -6,7 +6,9 @@ Este repositório é dedicado ao compartilhamento de vários programas e algorit
 
 - **[🇧🇷 Versão Brasileira *você está aqui*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-BR.md)**
 
-- **[🇺🇸 versão Americana *Current*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
+- **[🇺🇸 Versão Americana](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
+
+- **[Versão Espanhola](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
 
 ## 🧑‍💻 Como Usar Este Repositório?
 
@@ -81,73 +83,73 @@ Use qualquer compilador ou IDE de sua escolha para executar o código. Para C++,
 1. **Visual Studio Code (VS Code)**  
     O VS Code é um editor leve e versátil, ideal para várias linguagens.  
 
-   - **Passos para configurar cada linguagem**:  
+- **Passos para configurar cada linguagem**:  
 
-     - **C++**:  
+- **C++**:  
 
-       1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
+1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
 
-       2. Adicione a extensão **C/C++** do marketplace do VS Code.  
+2. Adicione a extensão **C/C++** do marketplace do VS Code.  
 
-       3. Instale o [MinGW](https://sourceforge.net/projects/mingw/) (ou outro compilador C++).  
+3. Instale o [MinGW](https://sourceforge.net/projects/mingw/) (ou outro compilador C++).  
 
-       4. Configure o compilador nos arquivos **tasks.json** e **launch.json** no VS Code.  
+4. Configure o compilador nos arquivos **tasks.json** e **launch.json** no VS Code.  
 
-       5. Use o terminal integrado para compilar e executar o programa:  
+5. Use o terminal integrado para compilar e executar o programa:  
 
-          ```bash
-          g++ seu_programa.cpp -o seu_programa
-          ./seu_programa
-          ```
+```bash
+g++ seu_programa.cpp -o seu_programa
+./seu_programa
+```
 
-     - **Python**:  
+- **Python**:  
 
-       1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
+1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
 
-       2. Adicione a extensão **Python** do marketplace do VS Code.  
+2. Adicione a extensão **Python** do marketplace do VS Code.  
 
-       3. Certifique-se de que o Python está instalado no seu sistema ([Baixar Python](https://www.python.org/downloads/)).  
+3. Certifique-se de que o Python está instalado no seu sistema ([Baixar Python](https://www.python.org/downloads/)).  
 
-       4. Execute o programa usando o terminal integrado:  
+4. Execute o programa usando o terminal integrado:  
 
-          ```bash
-          python seu_programa.py
-          ```
+```bash
+python seu_programa.py
+```
 
-     - **Java**:  
+- **Java**:  
 
-       1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
+1. Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/).  
 
-       2. Adicione o **Extension Pack for Java** do marketplace do VS Code.  
+2. Adicione o **Extension Pack for Java** do marketplace do VS Code.  
 
-       3. Certifique-se de que o [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) está instalado.  
+3. Certifique-se de que o [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) está instalado.  
 
-       4. Use o terminal integrado para compilar e executar:  
+4. Use o terminal integrado para compilar e executar:  
 
-          ```bash
-          javac SeuPrograma.java
-          java SeuPrograma
-          ```
+```bash
+javac SeuPrograma.java
+java SeuPrograma
+```
 
-2. **Editores ou IDEs específicos para cada linguagem**  
+## Editores ou IDEs específicos para cada linguagem  
 
-   - **C++**:  
+- **C++**:  
 
-     - **[Code::Blocks](https://www.codeblocks.org/)**: Um IDE gratuito e poderoso para desenvolvimento em C++.  
+- **[Code::Blocks](https://www.codeblocks.org/)**: Um IDE gratuito e poderoso para desenvolvimento em C++.  
 
-     - **[Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)**: Um editor leve para iniciantes e usuários intermediários.  
+- **[Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)**: Um editor leve para iniciantes e usuários intermediários.  
 
-   - **Python**:  
+- **Python**:  
 
-     - **[PyCharm](https://www.jetbrains.com/pycharm/)**: Um IDE rico em recursos, ótimo para projetos complexos.  
+- **[PyCharm](https://www.jetbrains.com/pycharm/)**: Um IDE rico em recursos, ótimo para projetos complexos.  
 
-     - **[IDLE](https://docs.python.org/3/library/idle.html)**: O editor oficial incluído no instalador do Python.  
+- **[IDLE](https://docs.python.org/3/library/idle.html)**: O editor oficial incluído no instalador do Python.  
 
-   - **Java**:  
+- **Java**:  
 
-     - **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**: Um IDE popular e altamente recomendado para desenvolvimento em Java.  
-     - 
-     - **[Eclipse](https://www.eclipse.org/)**: Um dos IDEs mais usados para Java.
+- **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**: Um IDE popular e altamente recomendado para desenvolvimento em Java.  
+
+- **[Eclipse](https://www.eclipse.org/)**: Um dos IDEs mais usados para Java.
 
 Escolha a ferramenta que melhor se adapta às suas necessidades e siga os tutoriais de configuração para começar. 🚀
 
@@ -169,4 +171,4 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para fazer um fork n
 
 ## 🏅 Créditos
 
-Este repositório é mantido por **Carlos Eduardo**. Se você achar os algoritmos úteis ou tiver sugestões, não hesite em entrar em contato!
+Este repositório é mantido por **Carlos Eduardo**. Se você achar os algoritmos úteis ou tiver sugestões, não hesite em entrar em contato !
