@@ -4,11 +4,11 @@ This repository is dedicated to sharing various programs and algorithms in **C++
 
 ## Avaible Languages 🌐
 
-- **[American Version *Current*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
+- **[🇺🇸 American Version *Current*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
 
-- **[Brasil Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-BR.md)**
+- **[🇧🇷 Brasil Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-BR.md)**
 
-- **[Spain Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
+- **[🇪🇸 Spain Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README-ES.md)**
 
 ## 🧑‍💻 How to Use This Repository?
 
