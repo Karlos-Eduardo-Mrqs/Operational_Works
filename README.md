@@ -94,7 +94,7 @@ Use any compiler or IDE of your choice to run the code. For C++, Python, and Jav
 3. Install [MinGW](https://sourceforge.net/projects/mingw/) (or another C++ compiler).  
 
 4. Configure the compiler in **tasks.json** and **launch.json** within VS Code.  
-      
+
 5. Use the integrated terminal to compile and run the program:  
 
 ```bash
