@@ -1,45 +1,48 @@
-# 🐍 Programas em Python
+# 🐍 Python Programms  
 
-## 🌐 Linguagens Disponíveis 
+## 🌐 Avaible Languages
 
-- **[US Versão Americana _current_]()**
-- **[BR Versão Brasileira]()**
-- **[ES Versão Espanhol]()**
+- **[US American Version _current_](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/README.md)**
 
-Este repositório contém a resolução de diversos problemas e projetos desenvolvidos em Python, organizados de acordo com a complexidade e os conceitos utilizados. A estrutura é dividida em duas grandes seções: **Resolution_Problems** e **Work_With_Classes**.
+- **[BR Brasilian Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-BR.md)**
 
----
+- **[ES Spanish Version](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-ES.md)**
 
-## 📁 Resolution_Problems
-
-Contém exercícios focados na lógica de programação básica e no uso inicial de funções.
-
-### 📂 [Problemas_Simples](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/simple_problems)
-
-Problemas fáceis que utilizam lógica básica, estruturas condicionais e laços de repetição. Ideal para quem está começando com Python.
-
-### 📂 [Problemas_Com_Funções](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/functions_problems)
-
-Exercícios que exploram o uso de **funções** para melhorar a estrutura do código e promover a reutilização. Uma introdução à modularização de programas.
+This repository contains the resolution of several problems and projects developed in Python, organized according to complexity and concepts used. The structure is divided into two large sections: **Resolution_Problems** and **Work_With_Classes**.
 
 ---
 
-## 📁 Work_With_Classes
+## [📁 Resolution_Problems](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems)
 
-Voltado para a aplicação de **Programação Orientada a Objetos (POO)**, com o uso de **classes** e objetos para resolver problemas mais elaborados.
+Contains exercises focused on basic programming logic and the initial use of functions.
 
-### 📂 [Problemas_Normais](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems)
+### 📂 [Simple_Problems](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/simple_problems)
 
-Problemas resolvidos com classes de forma simples, focando no entendimento dos conceitos básicos da orientação a objetos em Python.
+Easy problems that use basic logic, conditional structures, and loops. Ideal for those who are just starting out with Python.
 
-### 📂 [Resolução_De_Problemas](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions)
+### 📂 [Problems_With_Functions](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/functions_problems)
 
-Projetos mais elaborados com o uso de classes, podendo incluir **simulações**, **sistemas pequenos** ou **automação de tarefas**. São exemplos práticos que aplicam os conceitos aprendidos de forma mais completa.
+Exercises that explore the use of **functions** to improve code structure and promote reuse. An introduction to program modularization.
 
 ---
 
-📌 **Objetivo Geral:**  
-Fornecer um acervo de soluções para diferentes níveis de domínio em Python, desde os primeiros passos com lógica até aplicações com POO.
+## [📁 Work_With_Classes](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes)
 
-🧠 **Nível de dificuldade:**  
-*Básico → Intermediário*
+Focused on the application of **Object-Oriented Programming (OOP)**, with the use of **classes** and objects to solve more elaborate problems.
+
+
+### 📂 [Normal_Problems](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems)
+
+Problems solved with classes in a simple way, focusing on understanding the basic concepts of object orientation in Python.
+
+### 📂 [Problem_Solving](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions)
+
+More elaborate projects using classes, which may include **simulations**, **small systems** or **task automation**. These are practical examples that apply the concepts learned in a more complete way.
+
+---
+
+📌 **General Objective:** 
+To provide a collection of solutions for different levels of proficiency in Python, from the first steps with logic to applications with OOP.
+
+🧠 **Difficulty level:** 
+*Basic → Intermediate*

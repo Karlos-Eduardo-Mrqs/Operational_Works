@@ -1,16 +1,18 @@
 # 🐍 Programas em Python
 
-## 🌐 Linguagens Disponíveis 
+## 🌐 Linguagens Disponíveis
 
-- **[US Versão Americana _current_]()**
-- **[BR Versão Brasileira]()**
-- **[ES Versão Espanhol]()**
+- **[BR Versão Brasileira _você está aqui_](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-BR.md)**
+
+- **[US Versão Americana](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/README.md)**
+
+- **[ES Versão Espanhol](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-ES.md)**
 
 Este repositório contém a resolução de diversos problemas e projetos desenvolvidos em Python, organizados de acordo com a complexidade e os conceitos utilizados. A estrutura é dividida em duas grandes seções: **Resolution_Problems** e **Work_With_Classes**.
 
 ---
 
-## 📁 Resolution_Problems
+## [📁 Resolution_Problems](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems)
 
 Contém exercícios focados na lógica de programação básica e no uso inicial de funções.
 
@@ -24,7 +26,7 @@ Exercícios que exploram o uso de **funções** para melhorar a estrutura do có
 
 ---
 
-## 📁 Work_With_Classes
+## [📁 Work_With_Classes](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes)
 
 Voltado para a aplicação de **Programação Orientada a Objetos (POO)**, com o uso de **classes** e objetos para resolver problemas mais elaborados.
 
@@ -41,5 +43,4 @@ Projetos mais elaborados com o uso de classes, podendo incluir **simulações**,
 📌 **Objetivo Geral:**  
 Fornecer um acervo de soluções para diferentes níveis de domínio em Python, desde os primeiros passos com lógica até aplicações com POO.
 
-🧠 **Nível de dificuldade:**  
-*Básico → Intermediário*
+🧠 **Nível de dificuldade:** *Básico → Intermediário*

@@ -1,45 +1,47 @@
-# 🐍 Programas em Python
+# 🐍 Programas en Python
 
-## 🌐 Linguagens Disponíveis 
+## 🌐 Idiomas disponibles
 
-- **[ES Versão Espanhol]()**
-- **[US Versão Americana]()**
-- **[BR Versão Brasileira]()**
+- **[Versión en español](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-ES.md)**
 
-Este repositório contém a resolução de diversos problemas e projetos desenvolvidos em Python, organizados de acordo com a complexidade e os conceitos utilizados. A estrutura é dividida em duas grandes seções: **Resolution_Problems** e **Work_With_Classes**.
+- **[Versión estadounidense](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/README.md)**
+
+- **[Versión brasileña BR](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-BR.md)**
+
+Este repositorio contiene la resolución de varios problemas y proyectos desarrollados en Python, organizados según la complejidad y conceptos utilizados. La estructura se divide en dos grandes secciones: **Resolución_De_Problemas** y **Trabajo_Con_Clases**.
 
 ---
 
-## 📁 Resolution_Problems
+## [📁 Resolution_Problems](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems)
 
-Contém exercícios focados na lógica de programação básica e no uso inicial de funções.
+Contiene ejercicios enfocados en la lógica básica de programación y uso inicial de funciones.
 
 ### 📂 [Problemas_Simples](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/simple_problems)
 
-Problemas fáceis que utilizam lógica básica, estruturas condicionais e laços de repetição. Ideal para quem está começando com Python.
+Problemas sencillos que utilizan lógica básica, estructuras condicionales y bucles. Ideal para aquellos que comienzan con Python.
 
 ### 📂 [Problemas_Com_Funções](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/functions_problems)
 
-Exercícios que exploram o uso de **funções** para melhorar a estrutura do código e promover a reutilização. Uma introdução à modularização de programas.
+Ejercicios que exploran el uso de **funciones** para mejorar la estructura del código y promover la reutilización. Una introducción a la modularización de programas.
 
 ---
 
-## 📁 Work_With_Classes
+## [📁 Work_With_Classes](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes)
 
-Voltado para a aplicação de **Programação Orientada a Objetos (POO)**, com o uso de **classes** e objetos para resolver problemas mais elaborados.
+Enfocado en la aplicación de la **Programación Orientada a Objetos (POO)**, con el uso de **clases** y objetos para resolver problemas más elaborados.
 
 ### 📂 [Problemas_Normais](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems)
 
-Problemas resolvidos com classes de forma simples, focando no entendimento dos conceitos básicos da orientação a objetos em Python.
+Problemas resueltos con clases de forma sencilla, enfocándose en la comprensión de los conceptos básicos de orientación a objetos en Python.
 
 ### 📂 [Resolução_De_Problemas](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions)
 
-Projetos mais elaborados com o uso de classes, podendo incluir **simulações**, **sistemas pequenos** ou **automação de tarefas**. São exemplos práticos que aplicam os conceitos aprendidos de forma mais completa.
+Proyectos más elaborados que utilizan clases, que pueden incluir **simulaciones**, **sistemas pequeños** o **automatización de tareas**. Estos son ejemplos prácticos que aplican de forma más completa los conceptos aprendidos.
 
 ---
 
-📌 **Objetivo Geral:**  
-Fornecer um acervo de soluções para diferentes níveis de domínio em Python, desde os primeiros passos com lógica até aplicações com POO.
+📌 **Objetivo general:**  
+Proporcionar una colección de soluciones para diferentes niveles de conocimiento en Python, desde los primeros pasos con lógica hasta aplicaciones con OOP.
 
-🧠 **Nível de dificuldade:**  
-*Básico → Intermediário*
+🧠 **Nivel de dificultad:**  
+*Básico → Intermedio*
