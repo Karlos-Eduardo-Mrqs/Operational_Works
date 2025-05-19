@@ -20,7 +20,7 @@ Programs that use Object Oriented Programming (OOP) with classes to solve common
 
 Complete projects that apply Object-Oriented Programming (OOP) in Python to simulate real-world situations.
 
-[🔗 Navegar para a pasta `Projects_Resolutions`](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions)
+[🔗 `Projects_Resolutions`](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions)
 
 | Project | Description |
 |--------|-----------|
