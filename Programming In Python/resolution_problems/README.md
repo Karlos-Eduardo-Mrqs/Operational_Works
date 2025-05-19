@@ -2,21 +2,19 @@
 
 This directory contains a collection of simple programs developed in Python. The exercises cover basic concepts such as data input and output, decision structures, loops, and string manipulation.
 
-## 🧠 Problemas com Funções em Python
+## 🧠 Problems with Functions in Python
 
-Este diretório reúne exercícios resolvidos com o uso de funções em Python, com o objetivo de melhorar a modularização, a reutilização de código e a organização das soluções.
-
-
+This directory gathers solved exercises using Python functions, with the aim of improving modularization, code reuse, and solution organization.
 
 📂 **Directory:**  
 - [🧮 Simple Python Programs](#-simple-python-programs)
-  - [🧠 Problemas com Funções em Python](#-problemas-com-funções-em-python)
-  - [📄 Lista de Programas **simples\_problems**](#-lista-de-programas-simples_problems)
-  - [Lista de Programas **functions\_problems**](#lista-de-programas-functions_problems)
+  - [🧠 Problems with Functions in Python](#-problems-with-functions-in-python)
+  - [📄 List of Programs **simple problems**](#-list-of-programs-simple-problems)
+  - [Program List **functions\_problems**](#program-list-functions_problems)
 
 ---
 
-## 📄 Lista de Programas **simples_problems**
+## 📄 List of Programs **simple problems**
 
 - [ConvertTypesBR.py](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/resolution_problems/simple_problems/ConvertTypesBR.py)
 
@@ -114,7 +112,7 @@ Este diretório reúne exercícios resolvidos com o uso de funções em Python, 
 
 ---
 
-## Lista de Programas **functions_problems**
+## Program List **functions_problems**
 
 - [Angles.py](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/resolution_problems/functions_problems/Angles.py)
 
@@ -178,4 +176,4 @@ Este diretório reúne exercícios resolvidos com o uso de funções em Python, 
 
 - [Window.py](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/resolution_problems/functions_problems/Window.py)
 
-📌 **Nota:** Todos os arquivos podem ser abertos diretamente no GitHub para visualização do código.
+📌 **Note:** All files can be opened directly in GitHub to view the code.
