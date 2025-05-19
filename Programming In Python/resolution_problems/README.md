@@ -10,7 +10,7 @@ This directory gathers solved exercises using Python functions, with the aim of 
 - [🧮 Simple Python Programs](#-simple-python-programs)
   - [🧠 Problems with Functions in Python](#-problems-with-functions-in-python)
   - [📄 List of Programs – Simple Problems](#-list-of-programs--simple-problems)
-  - [Program List **functions\_problems**](#program-list-functions_problems)
+  - [List of Programs **functions\_problems**](#list-of-programs-functions_problems)
 
 ---
 
@@ -68,7 +68,7 @@ This directory gathers solved exercises using Python functions, with the aim of 
 
 ---
 
-## Program List **functions_problems**
+## List of Programs **functions_problems**
 
 | **Program** | **Description** |
 |-------------|------------------|
