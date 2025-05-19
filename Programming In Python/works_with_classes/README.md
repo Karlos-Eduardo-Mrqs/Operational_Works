@@ -2,7 +2,7 @@
 
 Programs that use Object Oriented Programming (OOP) with classes to solve common problems.
 
-[🔗 `normal_problems`](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems)
+[🔗 `normal_problems`](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems) 
 
 | File | Describe |
 |--------|-----------|
