@@ -1,7 +1,7 @@
 ## 📂 Data Structures — C++ Files
 
-| 📄 File| 📌Description                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| 📄 File| 📌Description|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [AlocacaoDinamica.cpp](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/AlocacaoDinamica.cpp)                          | Introduction to dynamic memory allocation using pointers.                  |
 | [AlocacaoDinamicaPt2.cpp](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/AlocacaoDinamicaPt2.cpp)                    | Continuation of dynamic memory practice with arrays.                       |
 | [AlocacaoEstatica.cpp](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/AlocacaoEstatica.cpp)                          | Use of variables and structures with static allocation.                    |
