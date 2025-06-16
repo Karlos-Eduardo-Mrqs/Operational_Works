@@ -2,11 +2,11 @@
 
 ## 🌐 Idiomas disponíveis
 
-- **[Versão brasileira _você está aqui_](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20c%2B%2B/main_readme/README-BR.md)**
+- **[🇧🇷 *](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20c%2B%2B/main_readme/README-BR.md)**
 
-- **[Versão americana atual](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20C%2B%2B/README.md)**
+- **[🇺🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20C%2B%2B/README.md)**
 
-- **[Espanhol inglês Versão](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20c%2B%2B/main_readme/README-ES.md)**
+- **[🇪🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20c%2B%2B/main_readme/README-ES.md)**
 
 ---
 

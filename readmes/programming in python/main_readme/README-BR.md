@@ -2,11 +2,11 @@
 
 ## 🌐 Linguagens Disponíveis
 
-- **[BR Versão Brasileira _você está aqui_](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-BR.md)**
+- **[🇧🇷 *](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-BR.md)**
 
-- **[US Versão Americana](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/README.md)**
+- **[🇺🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/Programming%20In%20Python/README.md)**
 
-- **[ES Versão Espanhol](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-ES.md)**
+- **[🇪🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/programming%20in%20python/main_readme/README-ES.md)**
 
 Este repositório contém a resolução de diversos problemas e projetos desenvolvidos em Python, organizados de acordo com a complexidade e os conceitos utilizados. A estrutura é dividida em duas grandes seções: **Resolution_Problems** e **Work_With_Classes**.
 

@@ -4,11 +4,11 @@ Este repositório é dedicado ao compartilhamento de vários programas e algorit
 
 ## Idiomas Disponíveis 🌐
 
-- **[🇧🇷 Versão Brasileira *você está aqui*](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-BR.md)**
+- **[🇧🇷 *](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-BR.md)**
 
-- **[🇺🇸 Versão Americana](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
+- **[🇺🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
 
-- **[🇪🇸 Versão Espanhola](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-ES.md)**
+- **[🇪🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-ES.md)**
 
 ## 🧑‍💻 Como Usar Este Repositório?
 

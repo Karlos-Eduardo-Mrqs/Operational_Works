@@ -1,4 +1,4 @@
-## 📂 Data Structures — C++ Files
+# 📂 Data Structures — C++ Files
 
 | 📄 File| 📌Description|
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -21,4 +21,4 @@
 | [UsandoPonteiros.cpp](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/UsandoPonteiros.cpp)                            | Practical examples of pointer usage in C++.                                |
 | [Hash Autoral](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/HashAutoral.cpp)                                       | You input ten names, and in the end, positions will be generated for them. |
 | [HashComSondagemLinear](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/HashAutoral.cpp)                              | Hashing with linear probing (description coming soon).                     |
-| [HashDBJ2](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/HashDBJ2.cpp)                                              | Implementation of the DJB2 hashing algorithm.                              |
+| [HashDBJ2](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estrutura_de_dados/HashDBJ2.cpp)                                              | Implementation of the DJB2 hashing algorithm.|
