@@ -7,6 +7,7 @@ This directory contains a collection of simple programs developed in Python. The
 This directory gathers solved exercises using Python functions, with the aim of improving modularization, code reuse, and solution organization.
 
 📂 **Directory:**  
+
 - [🧮 Simple Python Programs](#-simple-python-programs)
   - [🧠 Problems with Functions in Python](#-problems-with-functions-in-python)
   - [📄 List of Programs – Simple Problems](#-list-of-programs--simple-problems)
