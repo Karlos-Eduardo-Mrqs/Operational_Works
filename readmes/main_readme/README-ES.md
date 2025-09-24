@@ -4,11 +4,8 @@ Este repositorio está dedicado a compartir varios programas y algoritmos en **C
 
 ## Idiomas disponibles 🌐
 
-- **[🇪🇸 *](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-ES.md)**
-
-- **[🇧🇷](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/readmes/main_readme/README-BR.md)**
-
-- **[🇺🇸](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/blob/main/README.md)**
+| **[US Versíon Americana](../../README.md)** | **[BR Versão Brasilena](README-BR.md)** | **[ES Versão Espanhola ⭐](README-ES.md)**|
+|:-----------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 
 ## 🧑‍💻 ¿Cómo utilizar este repositorio?
 
@@ -34,33 +31,33 @@ Este repositorio contiene código organizado por lenguaje y tema, centrándose e
 
 ### 1. C++ 💳
 
-#### [📁 **Estructura_de_datos**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/estructura_de_datos)  
+#### [📁 **Estructura_De_Datos**](../../Programming%20In%20C++/data_struct/README.md)  
 
 :Contiene implementaciones básicas de estructuras como listas, colas, pilas, árboles, entre otras. Ideal para quienes están iniciando o repasando conceptos.
 
-#### 📁 [**Solución de problemas**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/problem_solving)  
+#### 📁 [**Solución_De_Problemas**](../../Programming%20In%20C++/resolution_problems/README.md)  
 
-- [**Problemas_Simples:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/resolucao_de_problemas/problemas_simples): Ejercicios básicos resueltos con lógica simple y comandos fundamentales del lenguaje.  
+- [**Problemas_Simples:**](../../Programming%20In%20C++/resolution_problems/simple_problems/README.md): Ejercicios básicos resueltos con lógica simple y comandos fundamentales del lenguaje.  
 
-- [**Problemas_con_Funciones:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20C%2B%2B/resolucao_de_problemas/problemas_com_funcoes) Desafíos que utilizan funciones personalizadas para modularizar el código y resolver problemas de forma organizada.
+- [**Problemas_Con_Funciones:**](../../Programming%20In%20C++/resolution_problems/problems_with_functions/README.md) Desafíos que utilizan funciones personalizadas para modularizar el código y resolver problemas de forma organizada.
 
 ### 2. Python 🐍
 
-#### [📁**Problemas_de_resolución**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems)
+#### [📁**Solución_De_Problemas**](../../Programming%20In%20Python/resolution_problems/README.md)
 
-- [**Problemas_Simples:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/simple_problems)Problemas fáciles que funcionan con lógica básica, condicionales y bucles.  
+- [**Problemas_Simples:**](../../Programming%20In%20Python/resolution_problems/simple_problems/)Problemas fáciles que funcionan con lógica básica, condicionales y bucles.  
 
-- [**Problemas_Con_Funciones:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/resolution_problems/functions_problems)Ejercicios que utilizan funciones para estructurar mejor las soluciones y mejorar la reutilización del código.
+- [**Problemas_Con_Funciones:**](../../Programming%20In%20Python/resolution_problems/functions_problems/)Ejercicios que utilizan funciones para estructurar mejor las soluciones y mejorar la reutilización del código.
 
-#### [📁 **Trabajar_con_clases**](https://github.com/Karlos-Eduardo-Mrqs/Trabajos_Operacionales/tree/main/Programación%20en%20Python/trabaja_con_clases)
+#### [📁 **Trabajar_con_clases**](../../Programming%20In%20Python/works_with_classes/README.md)
 
-- [**Problemas_Normales:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/normal_problems) Problemas resueltos utilizando clases de forma sencilla, con foco en la comprensión de la orientación a objetos.  
+- [**Problemas_Simples:**](../../Programming%20In%20Python/works_with_classes/normal_problems/) Problemas resueltos utilizando clases de forma sencilla, con foco en la comprensión de la orientación a objetos.  
 
-- [**Resolución de problemas:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Python/works_with_classes/Projects_Resolutions) Proyectos un poco más elaborados que involucran el uso de clases, que pueden incluir simulaciones, pequeños sistemas y automatizaciones.
+- [**Resolución_De_Proyectos:**](../../Programming%20In%20Python/works_with_classes/projects_resolutions/) Proyectos un poco más elaborados que involucran el uso de clases, que pueden incluir simulaciones, pequeños sistemas y automatizaciones.
 
 ### 3. Java ☕
 
-- [**Solución de problemas:**](https://github.com/Karlos-Eduardo-Mrqs/Operational_Works/tree/main/Programming%20In%20Java) Varios ejercicios para entrenar la lógica de programación utilizando Java.
+- [**Solución_De_Problemas:**](../../Programming%20In%20Java/) Varios ejercicios para entrenar la lógica de programación utilizando Java.
 
 ## Explora el Código 🕶️  
 

@@ -31,33 +31,33 @@ This repository contains code organized by language and topic, focusing on algor
 
 ### 1. C++ 💳
 
-#### [📁 **Estrutura_de_Dados:**](./Programming%20In%20C++/data_struct/README.md)  
+#### [📁 **Data_Struct**](./Programming%20In%20C++/data_struct/README.md)  
 
 Contains basic implementations of structures such as lists, queues, stacks, trees, and more. Ideal for beginners or those reviewing concepts.
 
-#### 📁 [**Resolucao_de_Problemas**](./Programming%20In%20C++/resolution_problems/README.md)  
+#### 📁 [**Resolution_Problems**](./Programming%20In%20C++/resolution_problems/README.md)  
 
-- [**Problemas_Simples:**](./Programming%20In%20C++/resolution_problems/simple_problems/README.md): Basic exercises solved with simple logic and fundamental language commands.  
+- [**Simple_Problems:**](./Programming%20In%20C++/resolution_problems/simple_problems/README.md): Basic exercises solved with simple logic and fundamental language commands.  
 
-- [**Problemas_com_Funcoes:**](./Programming%20In%20C++/resolution_problems/problems_with_functions/README.md) Challenges that use custom functions to modularize the code and solve problems in an organized way.
+- [**Problems_With_Functions:**](./Programming%20In%20C++/resolution_problems/problems_with_functions/README.md) Challenges that use custom functions to modularize the code and solve problems in an organized way.
 
 ### 2. Python 🐍
 
 #### [📁**Resolution_Problems**](./Programming%20In%20Python/resolution_problems/README.md)  
 
-- [**Problemas_Simples:**](./Programming%20In%20Python/resolution_problems/simple_problems/) Easy problems that work with basic logic, conditionals, and loops.  
+- [**Simple_Problems:**](./Programming%20In%20Python/resolution_problems/simple_problems/) Easy problems that work with basic logic, conditionals, and loops.  
 
-- [**Problemas_Com_Funções:**](./Programming%20In%20Python/resolution_problems/functions_problems/) Exercises that use functions to better structure the solutions and improve code reusability.
+- [**Problems_Wit_Functions:**](./Programming%20In%20Python/resolution_problems/functions_problems/) Exercises that use functions to better structure the solutions and improve code reusability.
 
 #### [📁 **Work_With_Classes**](./Programming%20In%20Python/works_with_classes/README.md)  
 
-- [**Problemas_Normais:**](./Programming%20In%20Python/works_with_classes/normal_problems/) Problems solved using classes in a simple way, focusing on understanding object-oriented programming.  
+- [**Normal_Problems:**](./Programming%20In%20Python/works_with_classes/normal_problems/) Problems solved using classes in a simple way, focusing on understanding object-oriented programming.  
 
-- [**Resolução_De_Problemas:**](./Programming%20In%20Python/works_with_classes/projects_resolutions/) Slightly more elaborate projects involving the use of classes, which may include simulations, small systems, or automations.
+- [**Projects_Resolutions:**](./Programming%20In%20Python/works_with_classes/projects_resolutions/) Slightly more elaborate projects involving the use of classes, which may include simulations, small systems, or automations.
 
 ### 3. Java ☕
 
-- [**Problem Solving:**](./Programming%20In%20Java/) Various exercises to practice programming logic using Java. This includes functions, problem resolutions, and more.
+- [**Problem_Solving:**](./Programming%20In%20Java/) Various exercises to practice programming logic using Java. This includes functions, problem resolutions, and more.
 
 ### Explore the Code 🕶️
 
